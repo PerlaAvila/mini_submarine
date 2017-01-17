@@ -1,0 +1,18 @@
+<h1>Sign In</h1>
+
+<% if @errors %>
+  <p><%= @errors %></p>
+<% end %>
+<div class="container" id="form">
+<h2>Register here.</h2>
+
+<form action='/signin' method="post">
+  Email: <input type="text" name="email"><br>
+  Password: <input type="password" name="pass"><br>
+  <input type="submit" value="Log in">
+ </form>
+ <br>
+ 
+<a class='button' href="/">Back home</a>  <!-- ¿Qué va en esta parte para realizar el sign in? -->
+  
+</div> <!--end "login_form" div -->
